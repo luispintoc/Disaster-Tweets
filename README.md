@@ -2,7 +2,7 @@
 
 
 ## Overview
-Predict whether a tweet is about a real disaster or not. The dataset is taken from the [Natural Language Processing with Disaster Tweets](https://www.kaggle.com/c/nlp-getting-started/overview) Kaggle competition. The best model ranks #134 out of 1350 teams in the leaderboard (Top 10%) as of **Jan 09, 2021**.
+Predict whether or not a tweet is about a real disaster. The dataset is taken from the [Natural Language Processing with Disaster Tweets](https://www.kaggle.com/c/nlp-getting-started/overview) Kaggle competition. The best model ranks #134 out of 1350 teams in the leaderboard (Top 10%) as of **Jan 09, 2021**.
 Best model is a stacking of:
 - Modified base BERT
 - LSTM with GloVe embeddings
