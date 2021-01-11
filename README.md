@@ -15,6 +15,9 @@ Final leaderboard F1 score: **0.84094**
 
 ## Files
 **input**: Hosts the dataset, submission template and extra dataset to expand the train set
+
 **output**: Submission csv
+
 **main.py**: Script with the main code (optimization of individual classifiers was done separately)
+
 **utils.py**: Script with helper functions
