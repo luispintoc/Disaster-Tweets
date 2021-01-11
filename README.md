@@ -18,6 +18,8 @@ Final leaderboard F1 score: **0.84094**
 
 **output**: Submission csv
 
+**logs**: Hosts the saved models
+
 **main.py**: Script with the main code (optimization of individual classifiers was done separately)
 
 **utils.py**: Script with helper functions
