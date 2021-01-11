@@ -15,7 +15,7 @@ from tensorflow.keras.preprocessing import sequence
 from tensorflow.keras.initializers import Constant
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.models import Sequential, Model
-from tensorflow.keras.layers import Dense, LSTM, Embedding, SpatialDropout1D, Dropout, Input
+from tensorflow.keras.layers import Dense, LSTM, Embedding, SpatialDropout1D, Dropout, Input, GlobalAveragePooling1D
 from tensorflow.keras.optimizers import Adam
 
 import tokenization
