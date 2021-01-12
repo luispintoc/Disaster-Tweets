@@ -7,7 +7,6 @@ Best model is a stacking of:
 - Modified base BERT
 - LSTM with GloVe embeddings
 - Naive Bayes classifier with Tf-idf features
-- Custom features
 - Stacking classifier is a Ridge (L2) regression model with a high regularization coefficient
 
 Final leaderboard F1 score: **0.84094**
