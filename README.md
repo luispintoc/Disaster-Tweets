@@ -23,3 +23,5 @@ Final leaderboard F1 score: **0.84094**
 **main.py**: Script with the main code (optimization of individual classifiers was done separately)
 
 **utils.py**: Script with helper functions
+
+**tokenization.py**: Tokenizer for the BERT layer
