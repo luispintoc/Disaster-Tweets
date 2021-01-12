@@ -14,11 +14,11 @@ Final leaderboard F1 score: **0.84094**
 
 
 ## Files
-**input**: Hosts the dataset, submission template and extra dataset to expand the train set
+**input/**: Hosts the dataset, submission template and extra dataset to expand the train set
 
-**output**: Submission csv
+**output/**: Submission csv
 
-**logs**: Hosts the saved models
+**logs/**: Hosts the saved models
 
 **main.py**: Script with the main code (optimization of individual classifiers was done separately)
 
