@@ -21,4 +21,4 @@ Final leaderboard F1 score: **0.84094**
 
 **utils.py**: Helper script
 
-**tokenization.py**: Tokenizer for the BERT layer
+**tokenization.py**: Tokenizer for BERT
