@@ -3,11 +3,11 @@
 
 ## Overview
 Predict whether or not a tweet is about a real disaster. The dataset is taken from the [Natural Language Processing with Disaster Tweets](https://www.kaggle.com/c/nlp-getting-started/overview) Kaggle competition. The best model ranks #134 out of 1350 teams in the leaderboard (Top 10%) as of **Jan 09, 2021**.
-Best model is a stacking of:
-- Modified base BERT
-- LSTM with GloVe embeddings
+Best model is an ensemble of:
+- Modified BERT base
+- Bi-LSTM with GloVe embeddings
 - Naive Bayes classifier with Tf-idf features
-- Stacking classifier is a Ridge (L2) regression model with a high regularization coefficient
+- Ensemble is a Ridge (L2) regression model with a high regularization coefficient
 
 Final leaderboard F1 score: **0.84094**
 
@@ -17,10 +17,8 @@ Final leaderboard F1 score: **0.84094**
 
 **output/**: Submission csv
 
-**logs/**: Hosts the saved models
+**main.ipynb**: Script with the main code (optimization of individual classifiers was done separately)
 
-**main.py**: Script with the main code (optimization of individual classifiers was done separately)
-
-**utils.py**: Script with helper functions
+**utils.py**: Script with helping variables
 
 **tokenization.py**: Tokenizer for the BERT layer
