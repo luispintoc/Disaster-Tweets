@@ -17,8 +17,8 @@ Final leaderboard F1 score: **0.84094**
 
 **output/**: Submission csv
 
-**main.ipynb**: Script with the main code (optimization of individual classifiers was done separately)
+**main.ipynb**: Jupyter notebook with the main code (optimization of individual classifiers was done separately)
 
-**utils.py**: Script with helping variables
+**utils.py**: Helper script
 
 **tokenization.py**: Tokenizer for the BERT layer
